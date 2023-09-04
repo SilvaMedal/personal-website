@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10rem;
   text-align: center;
 }
 
@@ -16,34 +16,28 @@
   .header {
     /* Define the base flex container styles */
     display: flex;
-  
-    /* Set the flex direction */
     flex-direction: row;
-  
-    /* Set the gap between flex items */
     gap: 0.25rem;
-  
-    /* Apply text styling */
-    font-size: 2.5rem; /* Adjust to match desired font size */
-    font-weight: 800; /* Extrabold */
+    font-size: 2.5rem; 
+    font-weight: 800; 
     letter-spacing: -0.025em; /* Tracking tight */
     color: black;
-  
-    /* Responsive text size for small screens */
-    font-size: 4rem; /* Adjust to match desired font size for small screens */
+    font-size: 4rem;
   }
   
   /* Define styles for screens smaller than medium-sized */
   @media (max-width: 768px) {
     .header {
-      /* Override column direction for medium screens and above */
       flex-direction: column !important;
-  
-      /* Set the gap between flex items for medium-sized screens and above */
-      gap: 0; /* Adjust to match desired gap size */
-
+      gap: 0;
       align-items: start;
+      padding: 0;
+      margin-bottom: 0;
     }
+    span {
+      margin-top: 0.1rem;
+    }
+
   }
   
   /* Align flex items to the start of the cross-axis */
@@ -67,6 +61,7 @@
   }
 }
 .revealing-text {
+  padding: 0;
   opacity: 0;
   animation: revealText 2s ease-out .5s forwards;
 }
@@ -79,4 +74,7 @@
 }
 .delay-3 {
   animation-delay: 1.5s;
+}
+.delay-4 {
+  animation-delay: 2.0s;
 }
