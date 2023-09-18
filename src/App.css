@@ -5,7 +5,7 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  padding: 10rem;
+  padding: 5rem;
   text-align: center;
 }
 
@@ -14,8 +14,8 @@
   flex-direction: column; /* Arrange children in a column */
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
-  height: calc(100vh - 120px); /* Subtract navbar height */
-}
+  width: auto;
+  }
 
   .header {
     /* Define the base flex container styles */
@@ -28,9 +28,21 @@
     color: black;
     font-size: 4rem;
   }
+
+  .footer {
+    font-size: x-small;
+  }
+
+  .section {
+    padding-top: 80px;
+  }
   
   /* Define styles for screens smaller than medium-sized */
   @media (max-width: 768px) {
+    #root {
+      padding: 3rem;
+    }
+
     .header {
       flex-direction: column !important;
       gap: 0;
@@ -40,7 +52,9 @@
     }
     span {
       margin-top: 0.1rem;
-    }
+      line-height: 100%;
+      padding-inline: 5%;
+     }
 
   }
   
