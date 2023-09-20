@@ -1,12 +1,10 @@
 export function Navbar() {
   return (
     <nav className="navbar">
-      <img src="./smp.png" className="logo" alt="logo" />
-
+      <a href="#" className="a">
+        <img src="./smp.png" className="logo" alt="logo" />
+      </a>
       <ul className="nav-links">
-        <li>
-          <a href="#">Home</a>
-        </li>
         <li>
           <a href="#about">About</a>
         </li>

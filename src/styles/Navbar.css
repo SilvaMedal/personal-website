@@ -16,13 +16,16 @@
     background: linear-gradient(to right, #4e4e4f, #b9b7b4);
 
   }
+
+  .navbar > .a {
+    padding-top: 1.5%
+  }
   
   .logo {
     max-height: 120px;
     max-width: 100%;
     object-fit: contain;
     overflow: hidden;  
-    padding-top: 1%;  
   }
   
   .nav-links {
