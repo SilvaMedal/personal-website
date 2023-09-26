@@ -9,6 +9,26 @@
   text-align: center;
 }
 
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(to right, #4e4e4f, #b9b7b4);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .main{
   display: flex;
   flex-direction: column; /* Arrange children in a column */
@@ -31,10 +51,12 @@
 
   .footer {
     font-size: x-small;
+    margin-top: 20%;
   }
 
   .section {
     padding-top: 80px;
+    max-width: 845px;
   }
 
   .contact-links {
