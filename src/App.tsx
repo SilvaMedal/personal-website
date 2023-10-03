@@ -1,7 +1,8 @@
 import "./App.css";
-import { Contacts } from "./components/Contacts";
-import { Navbar } from "./components/Navbar";
-import { Resources } from "./components/Resources";
+import Contacts from "./components/Contacts";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Resources from "./components/Resources";
 import "./styles/Navbar.css";
 
 function App() {
@@ -25,7 +26,16 @@ function App() {
               journey has cemented my dedication to personal growth and my
               commitment to fostering tech innovation.{" "}
             </p>
-            <p>[***INCLUDE MORE ABOUT ME PERSONALLY HERE***]</p>
+            <p>
+              Outside of tech, I'm a HUGE game enthusiast! I like games of all
+              sorts, from boardgames, to video games, to outdoor activities.
+              Ever since college, I have made it a habit to regularly attend
+              game nights with my close friends (as frequently as each week!).
+              Interested in what games I play? Check out my LinkedIn (I
+              sometimes post our "game of the week"), or just ask! I also enjoy
+              reading, movies (big Marvel Universe fan), and socializing in
+              general.{" "}
+            </p>
             <p>
               Currently, I lead the front-end development team at CD Techies, a
               non-profit organization that unites both budding tech enthusiasts
@@ -35,23 +45,7 @@ function App() {
               tech industry.
             </p>
           </section>
-          <section id="portfolio" className="section">
-            <h3>Portfolio Section (work in progress)</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus
-              proin nibh nisl condimentum id venenatis a condimentum. Lorem
-              donec massa sapien faucibus et molestie ac. Pellentesque habitant
-              morbi tristique senectus. Id venenatis a condimentum vitae. Sed
-              risus pretium quam vulputate dignissim. Mattis ullamcorper velit
-              sed ullamcorper morbi tincidunt ornare massa. Aliquet nec
-              ullamcorper sit amet risus nullam eget felis eget. Orci nulla
-              pellentesque dignissim enim sit amet venenatis. Viverra aliquet
-              eget sit amet tellus. Enim blandit volutpat maecenas volutpat
-              blandit aliquam etiam. Congue eu consequat ac felis donec et odio
-              pellentesque.{" "}
-            </p>
-          </section>
+          <Portfolio />
           <Resources />
           <Contacts />
         </div>

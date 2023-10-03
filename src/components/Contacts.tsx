@@ -1,4 +1,4 @@
-export function Contacts() {
+const Contacts = () => {
   return (
     <div id="contact" className="section">
       <ul className="contact-links">
@@ -23,4 +23,6 @@ export function Contacts() {
       </ul>
     </div>
   );
-}
+};
+
+export default Contacts;

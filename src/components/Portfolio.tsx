@@ -1,7 +1,7 @@
-const Resources = () => {
+const Portfolio = () => {
   return (
-    <section id="resources" className="section">
-      <h3>Resources Section (work in progress)</h3>
+    <section id="portfolio" className="section">
+      <h3>Portfolio Section (work in progress)</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh
@@ -19,4 +19,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default Portfolio;

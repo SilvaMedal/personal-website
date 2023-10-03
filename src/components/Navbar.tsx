@@ -1,4 +1,4 @@
-export function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#" className="a">
@@ -20,4 +20,6 @@ export function Navbar() {
       </ul>
     </nav>
   );
-}
+};
+
+export default Navbar;
