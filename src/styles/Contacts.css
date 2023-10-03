@@ -1,0 +1,42 @@
+.contact-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    overflow-x: visible;
+    justify-content: space-evenly;
+    padding-inline-start: initial;
+  }
+  
+  .contact-links li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-links li a:hover {
+    color: #D4AF37;
+  }
+
+  .contact-logo {
+    max-height: 120px;
+    max-width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  }
+
+  .contact-logo:hover {
+    animation-name: wiggle;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(0deg); }
+  }

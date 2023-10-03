@@ -3,6 +3,7 @@ import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Resources from "./components/Resources";
+import "./styles/Contacts.css";
 import "./styles/Navbar.css";
 
 function App() {
