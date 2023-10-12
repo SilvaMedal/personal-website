@@ -15,7 +15,7 @@ const Contacts = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="mailto:anthony@silvamedal.com">
             <img src="./email.png" className="contact-logo" alt="logo" />
             Email
           </a>

@@ -20,7 +20,7 @@ function App() {
           <section id="about" className="section">
             <h3>About Me:</h3>
             <p>
-              Hi, I'm Anthony Silva, a freelance web developer driven by a
+              Hi, I'm Anthony Silva, a full-stack software developer driven by a
               passion for knowledge. With over 16 years of experience in the
               world of hospitality, primarily in restaurant management, I
               transitioned into the realm of web development 2.5 years ago. My
@@ -38,12 +38,12 @@ function App() {
               general.{" "}
             </p>
             <p>
-              Currently, I lead the front-end development team at CD Techies, a
-              non-profit organization that unites both budding tech enthusiasts
-              and seasoned mentors. CD Techies is on a mission to fulfill the
-              technological needs of other non-profit organizations while
-              serving as an invaluable educational resource for newcomers in the
-              tech industry.
+              Currently, I lead the front-end development team for CD Tech
+              Chattanooga, a non-profit organization that unites both budding
+              tech enthusiasts and seasoned mentors. CD Tech is on a mission to
+              fulfill the technological needs of other non-profit organizations
+              while serving as an invaluable educational resource for newcomers
+              in the tech industry.
             </p>
           </section>
           <Portfolio />
