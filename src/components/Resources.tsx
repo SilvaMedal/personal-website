@@ -2,6 +2,10 @@ const Resources = () => {
   return (
     <section id="resources" className="section">
       <h3>Resources Section (work in progress)</h3>
+      {/* <div>
+              <img src={data[0].img} />
+              {data[0].title}
+            </div> */}
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh

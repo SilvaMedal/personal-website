@@ -23,7 +23,7 @@ function App() {
               Hi, I'm Anthony Silva, a full-stack software developer driven by a
               passion for knowledge. With over 16 years of experience in the
               world of hospitality, primarily in restaurant management, I
-              transitioned into the realm of web development 2.5 years ago. My
+              transitioned into the realm of web development early in 2021. My
               journey has cemented my dedication to personal growth and my
               commitment to fostering tech innovation.{" "}
             </p>

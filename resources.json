@@ -1,0 +1,37 @@
+[
+  {
+    "title": "TypeScript Handbook",
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "img": "public/typescript.svg"
+  },
+  {
+    "title": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/",
+    "img": "public/freecodecamp.svg"
+  },
+  {
+    "title": "Learn React",
+    "url": "https://react.dev/learn",
+    "img": "public/react.svg"
+  },
+  {
+    "title": "MDN Reference Guide",
+    "url": "https://developer.mozilla.org/en-US/",
+    "img": "public/mdn.svg"
+  },
+  {
+    "title": "Vite",
+    "url": "https://vitejs.dev/",
+    "img": "public/vite.svg"
+  },
+  {
+    "title": "T3 Stack",
+    "url": "https://create.t3.gg/",
+    "img": "public/t3.svg"
+  },
+  {
+    "title": "Placeholder",
+    "url": "",
+    "img": ""
+  }
+]
