@@ -1,35 +1,42 @@
 [
   {
+    "id": 0,
     "title": "TypeScript Handbook",
     "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
-    "img": "public/typescript.svg"
+    "img": "/typescript.svg"
   },
   {
+    "id": 1,
     "title": "freeCodeCamp",
     "url": "https://www.freecodecamp.org/learn/",
-    "img": "public/freecodecamp.svg"
+    "img": "/freecodecamp.svg"
   },
   {
+    "id": 2,
     "title": "Learn React",
     "url": "https://react.dev/learn",
-    "img": "public/react.svg"
+    "img": "/react.svg"
   },
   {
+    "id": 3,
     "title": "MDN Reference Guide",
     "url": "https://developer.mozilla.org/en-US/",
-    "img": "public/mdn.svg"
+    "img": "/mdn.svg"
   },
   {
+    "id": 4,
     "title": "Vite",
     "url": "https://vitejs.dev/",
-    "img": "public/vite.svg"
+    "img": "/vite.svg"
   },
   {
+    "id": 5,
     "title": "T3 Stack",
     "url": "https://create.t3.gg/",
-    "img": "public/t3.svg"
+    "img": "/t3.svg"
   },
   {
+    "id": 6,
     "title": "Placeholder",
     "url": "",
     "img": ""

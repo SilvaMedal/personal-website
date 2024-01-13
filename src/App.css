@@ -42,11 +42,11 @@ html {
     display: flex;
     flex-direction: row;
     gap: 0.25rem;
-    font-size: 2.5rem; 
     font-weight: 800; 
     letter-spacing: -0.025em; /* Tracking tight */
     color: black;
     font-size: 4rem;
+  
   }
 
   .footer {
@@ -60,7 +60,7 @@ html {
   }
   
   /* Define styles for screens smaller than medium-sized */
-  @media (max-width: 768px) {
+  @media (max-width: 899px) {
     #root {
       padding: 3rem;
     }
@@ -71,6 +71,7 @@ html {
       align-items: start;
       padding: 0;
       margin-bottom: 0;
+      font-size: 9vw;
     }
     span {
       margin-top: 0.1rem;

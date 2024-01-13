@@ -1,12 +1,13 @@
+import resourceList from "../resources.json";
 import "./App.css";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Resources from "./components/Resources";
-import "./styles/Contacts.css";
-import "./styles/Navbar.css";
 
-function App() {
+// import type { Resource } from "./components/Resources";
+const App = () => {
+  // function to iterate through resources here.
   return (
     <>
       <Navbar />
@@ -20,7 +21,7 @@ function App() {
           <section id="about" className="section">
             <h3>About Me:</h3>
             <p>
-              Hi, I'm Anthony Silva, a full-stack software developer driven by a
+              I'm Anthony Silva, a full-stack software developer driven by a
               passion for knowledge. With over 16 years of experience in the
               world of hospitality, primarily in restaurant management, I
               transitioned into the realm of web development early in 2021. My
@@ -47,13 +48,15 @@ function App() {
             </p>
           </section>
           <Portfolio />
-          <Resources />
+          <Resources list={resourceList} />
           <Contacts />
         </div>
       </main>
-      <footer className="footer">&copy; 2023 Anthony Silva</footer>
+      <footer className="footer">
+        &copy;2023-{new Date().getFullYear()} Anthony Silva
+      </footer>
     </>
   );
-}
+};
 
 export default App;
